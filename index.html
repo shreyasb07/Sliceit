@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruit Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<h1>The Fruit Slice Game</h1>
+<div class="container">
+	<div id="trialsLeft">
+		 	
+	</div>
+	<div id="scoreboard">
+		<p> SCORE : <span id="score"> </span></p>
+	</div>
+	<div id="correct">
+			<p>Correct!</p>
+		</div>
+	<div id="wrong">
+			<p>Try Again!</p>
+		</div>
+	<div id="fruitsContainer">
+		<img id="fruit1" class="fruit">
+	</div>
+	<div id="instruction">
+		<p> Slice the Fruits!</p>		
+	</div>
+	<div class="startBtn">
+		<p>Start Game!</p>
+	</div>
+	
+	
+	<div id="gameOver">
+		<p>Game Over!</p>
+		<p>Your Score is: "+ #score +"  </p>
+	</div>	
+</div>
+<audio id="slicesound">
+	<source src="audio/sound4.mp3"></source>
+</audio>
+	
+
+	<script type="text/javascript" src = "js/jquery.js"></script>
+</body>
+</html>
